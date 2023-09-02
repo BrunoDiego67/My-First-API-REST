@@ -174,34 +174,3 @@ No arquivo rotas.js, você associa os endpoints às funções controladoras.
     // Exporta as rotas configuradas para serem utilizadas em outras partes do aplicativo.
     module.exports = rotas;
 Este é um resumo da sua API de cadastro de usuários com Express, Nodemon e a estrutura de pastas mencionada. Observe que os detalhes específicos das implementações e lógica de negócios não estão incluídos aqui e devem ser adaptados de acordo com os requisitos do seu projeto real.
-
-
-## My-First-API-REST
-Folder Structure:
-.src/ (Source Root Folder). 
-  -index.js (Main File Starting Server). 
-  -routes.js (API Route Definition). -
-  -bancodedados.js (Module for interacting with the database). 
-  -controllers/ (Folder with the controllers). 
-   -instructors.js (File with functions that handle requests). 
-gitignore (Hide Files).
-package-lock.json (Framework Express)
-package.json (Server)
-
-Main Features:. Express Server: Uses the Express.js framework to create a web server that handles HTTP requests. 
-Nodemon: Facilitates development by automatically monitoring code changes and restarting the server when needed. 
-Gitignore: Ignores files and folders not needed for version control, such as files dependency and logs. 
-HTTP routes: Implements HTTP routes to manage CRUD operations (Create, Read, Update, Delete) on users.
-
-Examples of Endpoints:
-
-<div>
-  GET /users: Returns the list of users. 
-  GET /users/:id: Returns details of a specific user. 
-  POST /users: Creates a new user.
-  PUT /users/:id: Updates an existing user.
-  PATCH /users/:id: Partially updates an existing user.
-  DELETE /users/:id: Deletes a user.
-  Initialization of the Server:
-</div>
-
